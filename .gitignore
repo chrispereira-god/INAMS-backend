@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Optional: ignore test coverage reports
+coverage/
+
+# Optional: ignore Docker and local dev files
+docker-compose.override.yml
+.env.local
+.env.*.local
+
+# Ignore local MongoDB or DB-related files
+dump/
+*.sqlite
+*.db
