@@ -10,7 +10,10 @@ const contactRoutes = require('./routes/contactRoutes');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: ['https://inams-website.onrender.com'],
+  credentials: true
+}));
 app.use(express.json());
 
 // Connect to MongoDB
